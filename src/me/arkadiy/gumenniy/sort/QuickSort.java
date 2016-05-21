@@ -3,7 +3,7 @@ package me.arkadiy.gumenniy.sort;
 /**
  * Created by Arkadiy on 20.05.2016.
  */
-public class QuickSort implements Sort {
+public class QuickSort extends Sort {
     @Override
     public void sort(int[] array) {
         quickSort(array, 0, array.length - 1);

@@ -1,8 +1,14 @@
 package me.arkadiy.gumenniy.sort;
 
 /**
- * Created by Arkadiy on 20.05.2016.
+ * Abstract class with ability of sorting integer array
+ * not interface because of defining a specific role,
+ * which should be single role of inheritors
  */
-public interface Sort {
-    void sort(int[] array);
+public abstract class Sort {
+    /**
+     * sorts integer array
+     * @param array - array to sort
+     */
+    public abstract void sort(int[] array);
 }

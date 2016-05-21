@@ -3,7 +3,7 @@ package me.arkadiy.gumenniy.sort;
 /**
  * Created by Arkadiy on 20.05.2016.
  */
-public class InsertionSort implements Sort {
+public class InsertionSort extends Sort {
 
     @Override
     public void sort(int[] array) {

@@ -3,7 +3,7 @@ package me.arkadiy.gumenniy.sort;
 /**
  * Created by Arkadiy on 20.05.2016.
  */
-public class MergeSort implements Sort {
+public class MergeSort extends Sort {
 
     private int[] tempArray;
 
