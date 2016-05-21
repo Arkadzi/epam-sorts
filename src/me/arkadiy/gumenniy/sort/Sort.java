@@ -8,6 +8,7 @@ package me.arkadiy.gumenniy.sort;
 public abstract class Sort {
     /**
      * sorts integer array
+     *
      * @param array - array to sort
      */
     public abstract void sort(int[] array);
